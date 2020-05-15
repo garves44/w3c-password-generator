@@ -97,27 +97,6 @@ passwordText = password;
 
 
 
-
-
-
-
-
-
-
-
-
-// // DOM elements
-// var resultElement = document.getElementById('result');
-// var lengthElement 
-// })
-
-// //Generate Password Function
-// function generatePassword(lower, upper, number, symbol, length) {
-//   var generatedPassword = '';
-//   const typesCount = lower + upper + number + symbol;
-//   const typesArr = [{
-//     lower
-//   }, {
 //     upper
 //   }, {
 //     number
