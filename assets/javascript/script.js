@@ -116,12 +116,7 @@ passwordText = password;
 // var generateElement = document.getElementById('generate');
 // var clipboardElement = document.getElementById('clipboard');
 
-// var randomFunc = {
-//   lower: getRandomLower,
-//   upper: getRandomUpper,
-//   number: getRandomNumber,
-//   symbol: getRandomSymbol
-// };
+// var ra
 // //Generate event listen
 // generateElement.addEventListener('click', () => {
 //   var length = +lengthElement.value;
