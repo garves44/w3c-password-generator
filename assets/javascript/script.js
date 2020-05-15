@@ -108,12 +108,7 @@ passwordText = password;
 
 // // DOM elements
 // var resultElement = document.getElementById('result');
-// var lengthElement = document.getElementById('length');
-// var upperCaseElement = document.getElementById('uppercase');
-// var lowerCaseElement = document.getElementById('lowercase');
-// var numbersElement = document.getElementById('numbers');
-// var symbolsElement = document.getElementById('symbols');
-// var generateEgth, isLower, isUpper, isNumbers, isSymbols);
+// var lengthElement 
 // })
 
 // //Generate Password Function
