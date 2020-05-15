@@ -49,7 +49,7 @@ function writePassword() {
   var randSelected = '';
   for (var i = 0; i < length; i++) {
     randSelected = randomFunc(isLower, isUpper, isNumbers, isSymbols);
-    if (randSelected !== null){
+    if (randSelected !== "retry") {
       password = password + randSelected;
     } else {
       i--;
@@ -63,16 +63,24 @@ function randomFunc(isLower = false, isUpper = false, isNumbers = false, isSymbo
   var selector = Math.floor(Math.random() * 4);
   if (isLower && selector === 0) {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
+  } else if (selector === 0) {
+    return "retry";
   }
   if (isUpper && selector === 1) {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
+  } else if (selector === 1) {
+    return "retry";
   }
   if (isNumbers && selector === 2) {
     return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
+  } else if (selector === 2) {
+    return "retry";
   }
   if (isSymbols && selector === 3) {
     const symbols = '!@#$%^&*'
     return symbols[Math.floor(Math.random() * symbols.length)];
+  } else if (selector === 3) {
+    return "retry";
   }
   console.log(isLower, isUpper, isNumbers, isSymbols);
 };
