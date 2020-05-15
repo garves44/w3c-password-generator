@@ -95,21 +95,6 @@ passwordText = password;
 
 
 
-
-
-//     upper
-//   }, {
-//     numb
-//   return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
-// }
-
-// function getRandomSymbol() {
-//   const symbols = '!@#$%^&*'
-//   return symbols[Math.floor(Math.random() * symbols.length)];
-// }
-
-// //Copy password to clipboard
-// clipboardElement.addEventListener('click', () => {
 //   const textarea = document.createElement('textarea');
 //   const password = resultElement.innerText;
 
