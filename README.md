@@ -1,12 +1,9 @@
 # Week-Three-Challenge-Password-Generator 
 
-Password Generator created by Jeremy C. Collins. This is my week three challenge to make a responsive portfolio. This portfolio features an about me section, portfolio section, and a contact section.
-
-### Known Bugs
-* The email form at the bottom of the page does not actually work. HOWEVER clicking my email in the footer of the page will direct you to an email that will send to me.
+Password Generator created by Jeremy C. Collins. This is my week three challenge to make a random password generator using Javascript. This password generator, includes features allowing users to decide if they want lower case letters, upper case letters, numbers, and symbols.
 
 ### Useful links
-* This Live Repo: [https://garves44.github.io/w2c-portfolio/](https://garves44.github.io/w2c-portfolio/)
+* This Live Repo: [https://garves44.github.io/w3c-password-generator/](https://garves44.github.io/w3c-password-generator/)
 * My Github Portal: [https://garves44.github.io/](https://garves44.github.io/)
 
 ## Contact
