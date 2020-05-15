@@ -56,7 +56,8 @@ function writePassword() {
   }
   
   console.log(password);
-  document.getElementById('#password').value = password
+  document.getElementById("password").innerHTML = password;
+  return password;
 }
 //SELECT RANDOM CHARACTERS FOR PASSWORD GENERATOR
 function randomFunc(isLower = false, isUpper = false, isNumbers = false, isSymbols = false) {
@@ -87,9 +88,10 @@ function randomFunc(isLower = false, isUpper = false, isNumbers = false, isSymbo
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 // var password = generatePassword();
-var passwordText = document.querySelector("#password");
+var passwordText = document.getElementById("#password");
+passwordText = password;
 
-passwordText.value = password;
+
 
 
 
