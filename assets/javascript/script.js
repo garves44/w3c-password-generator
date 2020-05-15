@@ -113,19 +113,7 @@ passwordText = password;
 // var lowerCaseElement = document.getElementById('lowercase');
 // var numbersElement = document.getElementById('numbers');
 // var symbolsElement = document.getElementById('symbols');
-// var generateElement = document.getElementById('generate');
-// var clipboardElement = document.getElementById('clipboard');
-
-// var ra
-// //Generate event listen
-// generateElement.addEventListener('click', () => {
-//   var length = +lengthElement.value;
-//   var isLower = lowerCaseElement.checked;
-//   var isUpper = upperCaseElement.checked;
-//   var isNumbers = numbersCaseElement.checked;
-//   var isSymbols = symbolsCaseElement.checked;
-
-//   resultElement.innerText = generatePassword(length, isLower, isUpper, isNumbers, isSymbols);
+// var generateEgth, isLower, isUpper, isNumbers, isSymbols);
 // })
 
 // //Generate Password Function
