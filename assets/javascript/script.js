@@ -36,16 +36,15 @@ function writePassword() {
     reset();
     return;
   }
-
   var isLower = confirm('Would you like to include lower case letters?');
   var isUpper = confirm('Would you like to include upper case letters?');
   var isNumbers = confirm('Would you like to include numbers?');
   var isSymbols = confirm('Would you like to include symbols?');
-
   if (isLower === false && isUpper === false && isNumbers === false && isSymbols === false) {
     alert('You need to select at least one option!');
     reset();
   }
+  password = '';
   var randSelected = '';
   for (var i = 0; i < length; i++) {
     randSelected = randomFunc(isLower, isUpper, isNumbers, isSymbols);
@@ -55,8 +54,9 @@ function writePassword() {
       i--;
     }
   }
+  
   console.log(password);
-  return password;
+  document.getElementById('#password').value = password
 }
 //SELECT RANDOM CHARACTERS FOR PASSWORD GENERATOR
 function randomFunc(isLower = false, isUpper = false, isNumbers = false, isSymbols = false) {
